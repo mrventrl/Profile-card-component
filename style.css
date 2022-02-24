@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}  
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card-main{
+    padding: 100px;
+    width: 350px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat:no-repeat ;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 15px;
+    text-align: center;
+}
+
+hr{
+    width: 350px;
+    height: 0.3px !important;
+    background-color: hsla(0, 0%, 59%, 0.267);
+    border: none;
+    
+}
+
+.text h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 18px;
+}
+span{
+    margin-left: 8px;
+    font-weight: 100;
+}
+p{
+    color:hsl(0, 0%, 59%) ;
+}
+
+.text span{
+    color: hsl(227, 10%, 46%);
+}
+h1{
+    color: hsl(229, 23%, 23%);
+}
+.image img{
+    margin-top: -15px;
+    margin-bottom: 10px;
+
+}
+.text p{
+    padding: 10px;
+}
+
+.profile{
+    border: 5px solid #ffff;
+    border-radius: 50px;
+}
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.s1 h1, .s2 h1, .s3 h1{
+    font-size: 18px;
+    padding-bottom: 5px;
+    
+}
+.s1, .s2, .s3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-bottom: -90px;
+}
+.text{
+    margin-bottom: 10px;
+}
+.info-section p{
+    font-size: small;
+}
+
+
+
